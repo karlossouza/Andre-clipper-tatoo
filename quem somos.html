@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis&display=swap">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="case">
+        <div class="navbar-fixed">
+            <nav class=" black navbar z-depht-0">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="quem somos.html">QUEM SOMOS</a></li>
+                        <li><a href="serviços.html">SERVIÇOS</a></li>
+                        <li><a href="contatos.html">CONTATOS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="quem somos.html">QUEM SOMOS</a></li>
+            <li><a href="serviços.html">SERVIÇOS</a></li>
+            <li><a href="contatos.html">CONTATOS</a></li>
+        </ul>
+    </div>
+
+    <div class="avatar">
+        <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="card-panel black z-depth-3">
+                <div class="row valign-wrapper">
+                    <div class="col s2">
+                        <img src="foto andre.jpg" alt="" class="circle responsive-img">
+                        <!-- notice the "circle" class -->
+                    </div>
+                    <div class="col s10">
+                        <span class="white-text">
+                            <p>
+                                There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which don't
+                                look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
+                                need to be sure there isn't anything embarrassing hidden in the middle of text. All the
+                                Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
+                                making this the first true generator on the Internet. It uses a dictionary of over 200
+                                Latin words, combined with a handful of model sentence structures, to generate Lorem
+                                Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                                repetition, injected humour, or non-characteristic words etc.
+                            </p>
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+
+        <div class="col l6 m12 s12">
+            <div class="card">
+                <div class="card-image">
+                    <img src="maquinas-primeira linha.jpg">
+                    <span class="card-title">Máquinas de primeira linha</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col l6 m12 s12">
+            <div class="card">
+                <div class="card-image">
+                    <img src="studio-moderno.jpg">
+                    <span class="card-title">Studio moderno</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--jquery--->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--Materialize js--->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+
+
+    </script>
+
+</body>
+
+</html>
