@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis&display=swap">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="case">
+        <div class="navbar-fixed">
+            <nav class=" black navbar z-depht-0">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="quem somos.html">QUEM SOMOS</a></li>
+                        <li><a href="serviços.html">SERVIÇOS</a></li>
+                        <li><a href="contatos.html">CONTATOS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="quem somos.html">QUEM SOMOS</a></li>
+            <li><a href="serviços.html">SERVIÇOS</a></li>
+            <li><a href="contatos.html">CONTATOS</a></li>
+        </ul>
+    </div>
+
+
+
+    <div class="row">
+
+        <div class="col l6 m12 s12">
+            <div class="card black">
+                <div class="card-image">
+                    <img src="tatoo-service.jpg">
+                    <span class="card-title">Tatuagens ...</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col l6 m12 s12">
+            <div class="card black">
+                <div class="card-image">
+                    <img src="graffiti-service.jpg">
+                    <span class="card-title">Graffitis comerciais ...</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!---slides-->
+    <div class="row">
+
+        <div class="col l6 m12 s12">
+            <div class="card black">
+                <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="car01.jpg"></a>
+                    <a class="carousel-item" href="#two!"><img src="car02.jpg"></a>
+                    <a class="carousel-item" href="#three!"><img src="car03.jpg"></a>
+                    <a class="carousel-item" href="#four!"><img src="car04.jpg"></a>
+                    <a class="carousel-item" href="#five!"><img src="car05.jpg"></a>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="col l6 m12 s12">
+            <div class="card black">
+                <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="car06.jpg"></a>
+                    <a class="carousel-item" href="#two!"><img src="car07.jpg"></a>
+                    <a class="carousel-item" href="#three!"><img src="car08.jpg"></a>
+                    <a class="carousel-item" href="#four!"><img src="car09.jpg"></a>
+                    <a class="carousel-item" href="#five!"><img src="car010.jpg"></a>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--jquery--->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--Materialize js--->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+
+        $(document).ready(function () {
+            $('.carousel').carousel();
+        });
+
+
+    </script>
+
+</body>
+
+</html>
