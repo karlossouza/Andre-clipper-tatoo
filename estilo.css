@@ -1,5 +1,32 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis&display=swap);
 
+html,body{height:100%;}
+.bloco{min-height:100%;}
+
+.arte{
+  background-image:url('front.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:10px;
+}
+
+
+@media (max-width: 1200px) {
+  .arte{
+    width:100%;
+    height:100%;
+  }
+ }
+
+
+@media (min-width: 360px) {
+  .arte{
+    width:100%;
+    height:100%;
+  }
+}
+
+
 
 /*navbar*/
 .case{
@@ -71,4 +98,22 @@
   font-family: 'Dosis', sans-serif;
 }
 
+}
+
+
+.sidenav{
+  background-color:white;
+  opacity:0.3;
+  
+}
+
+/*rodape*/
+.base{
+/*diminuindo espaço entre as imagens*/
+  margin-top:-20px;
+}
+
+/*pagina de serviços*/
+.row-tatoo{
+  margin-top:-15px;
 }
