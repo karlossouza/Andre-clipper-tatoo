@@ -3,11 +3,11 @@
 /* html,body{height:100%;} */
 /* .bloco{min-height:100%;} */
 
-.arte{
+body{
   background-image:url('front.png');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top:10px;
+  /* margin-top:10px; */
 }
 
 
