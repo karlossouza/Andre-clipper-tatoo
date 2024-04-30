@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis&display=swap);
 
-html,body{height:100%;}
-.bloco{min-height:100%;}
+/* html,body{height:100%;} */
+/* .bloco{min-height:100%;} */
 
 .arte{
   background-image:url('front.png');
