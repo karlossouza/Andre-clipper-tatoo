@@ -3,53 +3,55 @@
 /* html,body{height:100%;} */
 /* .bloco{min-height:100%;} */
 
-body{
-  background-image:url('front.png');
+body {
+  background-image: url('front.png');
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 100%;
   /* margin-top:10px; */
 }
 
 
 @media (max-width: 1200px) {
-  .arte{
-    width:100%;
-    height:100%;
+  .arte {
+    width: 100%;
+    height: 100%;
   }
- }
+}
 
 
 @media (min-width: 360px) {
-  .arte{
-    width:100%;
-    height:100%;
+  .arte {
+    width: 100%;
+    height: 100%;
   }
 }
 
 
 
 /*navbar*/
-.case{
+.case {
   font-family: 'Dosis', sans-serif;
-  color: black; 
+  color: black;
 }
 
 
-.studio02{
+.studio02 {
   font-family: 'Dosis', sans-serif;
 }
 
 
-.caixa01{
+.caixa01 {
   font-family: 'Dosis', sans-serif;
-  
+
 }
 
 
 
-.caixa02{
+.caixa02 {
   font-family: 'Dosis', sans-serif;
-  width:600px; 
+  width: 600px;
 }
 
 
@@ -60,66 +62,66 @@ body{
   right: auto;
 }
 
-.row.capa{
+.row.capa {
   width: 100%;
-  height:100%;
+  height: 100%;
 }
 
 /*botao abrir formulario*/
 @media (max-width: 1200px) {
-.active01{
-  font-family: 'Dosis', sans-serif;
-  font-size:20px;
-  position: relative;
-  top:40px;
-
-
-  margin:0 auto;
-
-}
-
-
-@media (min-width: 360px) {
-  .active01{
+  .active01 {
     font-family: 'Dosis', sans-serif;
-    font-size:10px;
+    font-size: 20px;
     position: relative;
-    top:40px; 
+    top: 40px;
+
+
+    margin: 0 auto;
+
+  }
+
+
+  @media (min-width: 360px) {
+    .active01 {
+      font-family: 'Dosis', sans-serif;
+      font-size: 10px;
+      position: relative;
+      top: 40px;
     }
   }
 
   .section:not(.section-post) {
     padding: 80px 0;
-}
+  }
 
 
-  
 
 
-@media (min-width:360px) and (max-width:1200px) { 
-.base{
-  font-family: 'Dosis', sans-serif;
-}
 
-}
+  @media (min-width:360px) and (max-width:1200px) {
+    .base {
+      font-family: 'Dosis', sans-serif;
+    }
+
+  }
 
 
-.sidenav{
-  background-color:white;
-  opacity:0.3;
-  
-}
+  .sidenav {
+    background-color: white;
+    opacity: 0.3;
 
-/*rodape*/
-.base{
-/*diminuindo espaço entre as imagens*/
-  margin-top:-20px;
-}
+  }
 
-/*pagina de serviços*/
-.row-tatoo{
-  margin-top:-15px;
-}
+  /*rodape*/
+  .base {
+    /*diminuindo espaço entre as imagens*/
+    margin-top: -20px;
+  }
+
+  /*pagina de serviços*/
+  .row-tatoo {
+    margin-top: -15px;
+  }
 
 
 
