@@ -71,8 +71,12 @@
   font-family: 'Dosis', sans-serif;
   font-size:20px;
   position: relative;
-  top:40px; 
-  }
+  top:40px;
+
+  background-color:#daa520;
+  color: #f0f8ff;
+  margin:0 auto;
+
 }
 
 
