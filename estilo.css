@@ -96,6 +96,13 @@ body {
     }
   }
 
+
+
+  #closemodal{
+    font-family:'Dosis', sans-serif ;
+    color:#f5f5f5;
+  }
+
   
   .section:not(.section-post) {
     padding: 80px 0;
