@@ -123,7 +123,7 @@ botao abrir formulario
   /*rodape*/
   .base {
     /*diminuindo espaço entre as imagens*/
-    margin-top: -15px;
+    margin-top: -25px;
   }
 
   /*pagina de serviços*/
@@ -161,8 +161,18 @@ botao abrir formulario
     }
   }
 
+/*redes sociais*/
+#midia1{
+  display: inline-flex;
+}
 
-
+#midia2{
+  display: inline-flex;
+}
+ 
+#midia3{
+  display: inline-flex;
+}
 
 
 
