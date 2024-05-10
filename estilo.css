@@ -165,17 +165,21 @@ botao abrir formulario
 /*redes sociais*/
 #midia1{
   display: inline-flex;
-  margin:6px;
+  margin:10px;
+  padding:5px;
+  
 }
 
 #midia2{
   display: inline-flex;
-  margin:6px;
+  margin:10px;
+  padding:5px;
 }
  
 #midia3{
   display: inline-flex;
-  margin:6px;
+  margin:10px;
+  padding:5px;
 }
 
 
