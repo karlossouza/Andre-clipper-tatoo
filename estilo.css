@@ -196,7 +196,7 @@ botao abrir formulario
 /* rede social em tela grande: */
 @media (max-width: 1200px) {
   #socialmedia {
-    padding:6px;
+    padding:10px;
   }
 }
 
