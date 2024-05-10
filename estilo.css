@@ -125,7 +125,32 @@ body {
 }
 
 
+/* botao novo: */
+@media (max-width: 1200px) {
+  #contato {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 40px;
 
-#contato{
-  width:300px;
+
+    margin: 0 auto;
+
+  }
+
+
+  @media (min-width: 360px) {
+    #contato {
+      font-family: 'Dosis', sans-serif;
+      font-size: 10px;
+      position: relative;
+      top: 40px;
+    }
+  }
+
+  
+
+
+
+
 }
