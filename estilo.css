@@ -74,7 +74,7 @@ body {
     position: relative;
     top: 40px;
 
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,7 +152,8 @@ body {
     font-size: 20px;
     position: relative;
     top: 40px;
-
+    
+    margin-right:20%;
 
     margin: 0 auto;
 
