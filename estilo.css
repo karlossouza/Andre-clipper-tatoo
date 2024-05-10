@@ -181,22 +181,16 @@ body {
 #midia1{
   display: inline-flex;
   margin:10px;
-  padding:2%;
+  padding:5%;
   
 }
 
 #midia2{
   display: inline-flex;
   margin:10px;
-  padding:2%;
+  padding:5%;
 }
  
-#midia3{
-  display: inline-flex;
-  margin:10px;
-  padding:2%;
-}
-
 
 
 /* aviso capa */
