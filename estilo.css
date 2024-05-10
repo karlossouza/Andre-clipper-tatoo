@@ -184,5 +184,14 @@ botao abrir formulario
 
 
 
+/* aviso capa */
+
+@media (min-width:360px) and (max-width:1200px) {
+  .aviso {
+    font-family: 'Dosis', sans-serif;
+  }
+
+}
+
 
 }
