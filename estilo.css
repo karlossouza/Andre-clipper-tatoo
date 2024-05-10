@@ -160,7 +160,7 @@ body {
     position: relative;
     top: 40px;
     
-    margin-right:20%;
+    margin-left:20%;
 
     margin: 0 auto;
 
@@ -181,20 +181,20 @@ body {
 #midia1{
   display: inline-flex;
   margin:10px;
-  padding:5px;
+  padding:2%;
   
 }
 
 #midia2{
   display: inline-flex;
   margin:10px;
-  padding:5px;
+  padding:2%;
 }
  
 #midia3{
   display: inline-flex;
   margin:10px;
-  padding:5px;
+  padding:2%;
 }
 
 
@@ -212,6 +212,7 @@ body {
 @media (max-width: 1200px) {
   #socialmedia {
     padding:10px;
+
   }
 }
 
